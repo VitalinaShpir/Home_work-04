@@ -343,6 +343,9 @@ body {
 .icon-item {
   width: 60px;
   height: 64px;
+  position: relative;
+  top: 24px;
+  left: 102px;
 }
 .social-list-link{
   display: flex;
