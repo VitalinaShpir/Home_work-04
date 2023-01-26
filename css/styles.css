@@ -347,7 +347,7 @@ body {
   top: 24px;
   left: 102px;
 }
-.social-list-link{
+.social-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -356,12 +356,42 @@ body {
   background-color: var(--primary-brand-color);
   border-radius: 50%;
 }
-.social-list-link:hover, .social-list-link:focus{
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: var(--pressed-state-color);
 }
-.social-list{
+.social-list {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-top: 8px;
+}
+
+/* Section customers */
+.customers {
+  padding-top: 130px;
+  padding-bottom: 120px;
+  margin-bottom: 72px;
+}
+.customers-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--subtle-text-color);
+  border-radius: 4px;
+}
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.customers-list-icon{
+  fill: currentColor;
+}
+.customers-list-link:hover,
+.customers-list-link:focus {
+  border: 1px solid var(--pressed-state-color);
+  fill: var(--pressed-state-color);
 }
